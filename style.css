@@ -1,0 +1,509 @@
+*{
+	box-sizing:border-box;
+}
+html, body {
+    height: 100%;
+}
+body{
+  overflow-x:hidden !important;
+}
+
+/*header*/
+.image-container .row {
+    padding: 3rem;
+    padding-top: 2rem;
+    padding-bottom: .5rem;
+}
+.image-container{
+    /*min-height:500px;
+    width: 100%;
+    height: auto;
+    background-size:100% 100%;
+    background: url("../images/banner_image.png") center center/ cover no-repeat fixed;*/
+     background: url("../images/banner_image.png") no-repeat;
+    width: 100%;
+    height: 540px;
+    background-size:100% 100%;
+}
+
+.image-container h3 {
+  color: #FFFFFF;
+font-family: 'Titillium Web', sans-serif;
+  font-size:1.7rem;
+  letter-spacing: 1.3px;
+  line-height: 40px;
+  text-align: left;
+  margin-top:3rem;
+}
+.image-container ul{
+  color: #FFFFFF;
+  font-family: StagSans;
+  font-size: 1.5rem;
+  letter-spacing: 3.59px;
+  line-height: 34px;
+  text-align: left;
+  padding-left:0px;
+  margin-top:1rem;
+  margin-bottom:1rem;
+
+
+}
+
+.image-container li{
+	list-style-type: none;
+	display:inline-block;
+	color: #FFFFFF;
+	 font-weight:none;
+	 font-size:1.5rem;
+	   font-weight:100;
+  
+}
+li.vl{
+	 border-right:1px solid white;
+	 height:20px;
+}
+
+.image-container button{
+	 background-color: #DD5A6A;
+  border-radius: 3.2px;
+  border:1px solid #DD5A6A;margin-top:.75em;
+  font-size:.75em;
+  font-weight:bold;
+ padding: 1em 3em;
+}
+#form{
+   padding-left:12rem;
+   padding-top:0rem;
+}
+#form .form-control{
+	border-radius:0px;
+}
+form{
+	background-color:#ffff;
+	padding:28px;
+}
+form h4{
+	margin-bottom:1.5rem;
+}
+textarea{
+	resize:none;
+	border: 1px solid #ced4da;
+	padding:0px;
+	width:100%;
+}
+textarea::placeholder { 
+padding:6px 12px;
+} 
+.form-group#check{
+    border: 1px solid #ced4da;
+   padding: .75rem 1.38rem;
+   margin-bottom:.5rem;
+}
+#check small{position:relative;
+	right:-160px;
+	color:#ced4da;
+}
+.form-group::placeholder{
+	font-size:10px;
+} 
+
+/*section1*/
+.section1{
+	padding:3.5rem;
+	padding-top:5.5rem;
+}
+/*#left-side{
+	background:url('../images/group1.png') no-repeat center center fixed;
+	-webkit-background-size: contain; 
+	-moz-background-size:contain; 
+	-o-background-size:contain ;
+	 background-size: contain;
+}*/
+#right-side{
+	
+}
+
+
+
+.rectangle {
+	 background: radial-gradient( #2EC4B8 0%, #6078EA 100%);
+  
+  background-repeat: no-repeat;
+  border-radius: 4px;
+}
+.content{
+	margin-top:2.5rem;
+}
+
+p.bone-marrow-transplant{
+  color: #FFFFFF;
+  font-family: StagSans;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: left;
+}
+.replacement {
+  color: #000000;
+  font-family: StagSans;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: left;
+  letter-spacing:.5px;
+}
+.medicines {
+  color: #000000;
+  font-family: StagSans;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: left;
+}
+.bone{
+  color: #000000;
+  font-family: StagSans;
+  font-size: 17px;
+  line-height: 20px;
+ 
+  text-align: left;
+    white-space: wrap;
+    overflow: hidden;
+  text-overflow: clip; 
+}
+/*doctors*/
+.doctors{
+  padding:4.2rem;
+  padding-top:0rem;
+}
+.doctors h4{
+
+  color: #22B78E;
+  font-family: StagSans;
+  font-size: 31px;
+  letter-spacing: 1.28px;
+  line-height: 44px;
+  text-align: left;
+}
+.card-deck{
+  margin-top:20px;
+}
+.doctors .card{
+  border:none;
+   background-color: #F9F9FF;
+  border-radius: 4px;
+}
+.doctors .card-body{
+  color: #22B78E;
+  font-family: StagSans;
+  font-size: 24px;
+  letter-spacing: 0.99px;
+  text-align: left;
+}
+.doctors .card-body h6{
+  color: #1D5AA6;
+  font-family: StagSans;
+  letter-spacing: 1.76px;
+  line-height: 26px;
+}
+.doctors .card-body p{
+  color: #1D5AA6;
+  font-family: StagSans;
+  font-size: 10px;
+  letter-spacing: 1.2px;
+  
+}
+.exp{
+  font-size:13px;
+  color:#000000;
+}
+.card-body button{
+   background-image: radial-gradient(-35.15% 100%, #17EAD9 0%, #6078EA 100%);
+}
+.about-border {
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #22B78E;
+    margin: 20px auto;
+}
+.doctors .card-deck .card{
+  padding:30px;
+}
+
+/*section2*/
+section{
+   padding:4.2rem;
+  padding-top:0rem;
+  padding-bottom:0rem;
+}
+section h4,.signs h4{
+    color: #22B78E;
+  font-family: StagSans;
+  font-size: 31px;
+  letter-spacing: 1.28px;
+  line-height: 44px;
+  text-align: left;
+
+}
+section ul {
+  list-style-type:none;
+  
+
+}
+section li{
+  position:relative;font-size:14px;
+  line-height:40px;
+}
+section ul li:before{
+    content:url('../images/hospital.png');
+    padding:0 10px 0 0;
+    position:absolute;
+    top:0; left:-33px;
+}
+section li{
+  
+ padding:20px;
+ padding-top:0px;
+}
+
+/*signs*/
+.sign{
+  padding:4.2rem;
+  padding-top:0rem;
+}
+.sign .card{
+   background-color: #FFFFFF;
+  border: 1px solid #E5EAFF;
+  border-radius: 4px;
+  box-shadow: 3px 5px 29px 0 rgba(187, 165, 228, 0.1);
+ margin-top:10px;
+ margin-bottom:10px;
+ margin-right:10px;
+}
+
+.sign .card-deck .card {
+     padding: 0px;
+     font-size:12px;
+}
+.sign .card-deck .card p{
+ margin-top:10px;
+}
+.row {
+  display:flex;
+}
+.flexbox {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+ .two{
+  flex:1;
+  padding-left:0px;
+  padding-right:0px;
+}
+
+/*condition*/
+.condition{
+   padding:4.2rem;
+  padding-top:0rem;
+  padding-bottom:2rem;
+}
+#accordion{
+  padding:2.8rem;
+  padding-top:0px;
+}
+.condition h5{
+   color: #1D5AA6;
+   text-align:left;
+}
+.condition .card{
+  border:none;
+}
+.condition .card-header{
+  background-color:transparent;
+  padding-left:0px;
+  padding-right:0px;
+  padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+}
+.condition ul {
+  list-style-type:none;
+  
+
+}
+.condition li{
+  position:relative;font-size:14px;
+  line-height:30px;
+}
+.condition ul li:before{
+    content:url('../images/tick.png');
+    padding:0 10px 0 0;
+    position:absolute;
+    top:0; left:-33px;
+}
+
+/*testimonials*/
+
+.testimonial h4{
+   color: #22B78E;
+}
+ .testimonial .item {
+    background-color: #FFFFFF;
+  border-radius: 4px;
+  box-shadow: 9px 8px 27px 0 rgba(0, 0, 0, 0.04);
+    border-radius: 3px;
+   margin:10px;
+}
+
+
+.owl-carousel .owl-item img {
+    display: inline-block !important;
+    width: 100%;
+}
+
+.name-details{
+ padding-top: 30px;
+    padding-left: 45px;
+  }
+.name-details small{
+  display: inline-block;
+    position: relative;
+    top: 20px;
+    left: -70px;
+}
+
+.name-details .apsto{
+display:inline;
+}
+.item p{
+  font-size:10px;
+}
+.content1 {
+    padding-top: 19px;
+    padding-left: 32px;
+    padding-bottom: 31px;
+    padding-right: 20px;
+}
+.testimonial button{
+  background-color: #004498;
+  border-color:none;
+  border-radius: 3.81px;
+display:block;
+margin:auto;
+}
+/*footer*/
+.footer{
+  background-color:#272727;
+  padding:100px;
+  position:relative;
+}
+.footer ul{
+  list-style-type:none;
+  position:relative;
+}
+.footer li{
+  display:inline-block;
+}
+
+.footer hr{
+   border: 1px solid rgba(255, 255, 255, 0.21);
+}
+.footer p{
+  color: #FFFFFF;
+}
+.footer .up{
+ 
+    position: absolute;
+    right: 15%;
+    top: 25%;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1050px ) {
+  #form {
+   padding-left:7rem;
+  }
+
+  
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 460px) {
+  #heading h3{
+    font-size:1.2rem;
+  }
+  #form {
+   padding-left:1.2rem;
+  }
+  #check small {
+    position: relative;
+    right: -135px;
+    color: #ced4da;
+  }
+
+.doctors .card-deck .card {
+    padding: 12px;
+
+}
+.sign .card-body{
+  padding:.5rem;
+}
+}
+@media screen and (max-width: 450px) and (min-width: 310px) {
+form{
+  display:none !important;
+}
+.image-container .row {
+    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.image-container button{
+  margin-bottom:.75rem;
+}
+.section1{
+  padding:2rem;
+}
+.medicines{
+  line-height:26px;
+}
+.replacement{
+    line-height: 27px;
+}
+.bone{
+  line-height:26px;
+}
+.doctors{
+  padding:2rem;
+}
+section{
+  padding:2rem;
+}
+section li{
+  padding:0px;
+  line-height:29px;
+  margin-bottom:10px;
+}
+.sign{
+  padding:2rem;
+}
+.condition{
+  padding:2rem;
+}
+#accordion{
+  padding:0px;
+}
+#accordion .card-body{
+  padding:.5rem;
+}
+#accordion .card-body li{
+  margin-bottom:.5rem;
+}
+.footer{
+  padding:20px;
+}
+.footer .up {
+    position: absolute;
+    right: 4%;
+    top: 56%;
+}
+}
+
